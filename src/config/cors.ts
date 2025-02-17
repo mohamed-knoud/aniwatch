@@ -5,7 +5,7 @@ config();
 
 const allowedOrigins = process.env.ANIWATCH_API_CORS_ALLOWED_ORIGINS
   ? process.env.ANIWATCH_API_CORS_ALLOWED_ORIGINS.split(",")
-  : ["http://localhost", "*"];
+  : ["https://fastanime.great-site.net/", "*"];
 
 const corsConfig = cors({
   allowMethods: ["GET"],
